@@ -18,7 +18,7 @@ const { Header, Content, Footer } = Layout;
 
 function App() {
     const handleSwitchChange = checked => {
-        //less vars that you will used must be declared in themeVars on config-overrides.js
+        //less variables that will be used here must be declared in themeVariables on config-overrides.js
         window.less
             .modifyVars({
                 "@primary-color": checked ? "#52c41a" : "@blue-6"
